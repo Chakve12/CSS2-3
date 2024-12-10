@@ -1,0 +1,489 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Navigation {
+    text-align: right;
+}
+
+#mainLogo {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 277px;
+    cursor: pointer;
+}
+
+#navb {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 277px;
+}
+
+#navb li {
+    padding-right: 20px;
+}
+
+#navb ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#navb ul li {
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: middle;
+    font-family: Inter;
+}
+
+#insideContent {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #F7F4FF;
+}
+
+.list-items{
+    color: #323;
+    text-decoration: none;
+}
+
+#contactusButtonWRAP {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    border: 1px solid #8E26C0;
+    background-color: transparent;
+    color: #8E26C0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#contactWRAP {
+    color: #8E26C0;
+    font-weight: 600px;
+    text-decoration: none;
+}
+
+#img1 {
+    margin-top: 142px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#section  {
+    display: inline-block;
+    margin-left: 45px;
+    vertical-align: middle;
+}
+
+#sectionTitle {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Inter;
+    margin-top: 222px;
+}
+
+#sectionDescription {
+    font-size: 20px;
+    font-family: Prata;
+}
+
+#sectionDescription span {
+    display: block;
+}
+
+#insideContent1 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#orderedList {
+    text-align: left;
+}
+
+#orderedList li {
+    font-size: 24px;
+    font-family: Fira Sans;
+}
+
+#section1 {
+    text-align: center;
+}
+
+#section1Title {
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 83px;
+}
+
+#section1Description {
+    font-size: 20px;
+    font-family: Prata;
+    color: #535862;
+}
+
+#section1Description span {
+    display: block;
+}
+
+#lowerSection {
+    background-color: #F7F4FF;
+    border-radius: 16px;
+    padding: 32px;
+    display: inline-block;
+    text-align: center;
+}
+
+#contactForms {
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #FFF;
+    display: inline-block;
+    vertical-align: top;
+    height: 434px;
+}
+
+#contactusWRAP {
+    width: 100%;
+    text-align: center;
+}
+
+#lowerSection {
+    margin-top: 20px;
+}
+
+#address {
+    text-align: left;
+}
+
+#locationLogo {
+    margin-right: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #F7F4FF;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#addressContent {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#addressTitle {
+    font-size: 20px;
+    font-family: Phetsarath;
+    font-weight: 700;
+}
+
+#addressDescription {
+    font-size: 16px;
+    font-family: Prata;
+    color: #6D5F8B;
+    margin-top: 6px;
+}
+
+#email {
+    margin-top: 24px;
+    text-align: left;
+}
+
+#emailLogo {
+    border: none;
+    border-radius: 50px;
+    background-color: #F7F4FF;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+#emailContent {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#emailTitle {
+    font-size: 20px;
+    font-family: Phetsarath;
+    font-weight: 700;
+}
+
+#emailDescription {
+    font-size: 16px;
+    font-family: Prata;
+    color: #6D5F8B;
+}
+
+#phone {
+    text-align: left;
+    margin-top: 24px;
+}
+
+#phoneTitle {
+    font-size: 20px;
+    font-family: Phetsarath;
+    font-weight: 700;
+}
+
+#phoneLogo {
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #F7F4FF;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+#phoneContent {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#phoneDescription {
+    font-size: 16px;
+    color: #6D5F8B;
+    font-family: Prata;
+}
+
+#sendmessage {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    height: 434px;
+    width: 730px;
+}
+
+#sendmessageTitle {
+    font-size: 32px;
+    font-weight: 900;
+    font-family: Noto Sans Georgian;
+    color: #1B003D;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+#sendmessage form label {
+    display: block;
+    text-align: left;
+    color: #1B003D;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+}
+
+#sendmessage form input {
+    border: 1px solid #8E26C0;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 100%;
+    background-color: transparent;
+}
+
+#usermessageInput {
+    border: 1px solid #8E26C0;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 100%;
+    background-color: transparent;
+    height: 146px;
+    resize: none;
+    margin-top: 24px;
+}
+
+#submitButton {
+    padding: 12px 24px;
+    background-color: #8E26C0;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: right;
+}
+
+#useremailInput {
+    margin-top: 8px;
+}
+
+#usernameInput {
+    margin-top: 8px;
+}
+
+#emailLabel {
+    padding-top: 24px;
+}
+
+#submitbuttonWRAP {
+    text-align: right;
+}
+
+#footerWRAP {
+    padding: 64px 0px 48px 0px;
+    background-color: #53389E;
+    margin-top: 163px;
+}
+
+#footerContent {
+    width: 100%;
+    text-align: center;
+    padding: 0px 32px;
+}
+
+#footerContent ul {
+    list-style: none;
+}
+
+#footerContent ul li {
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.footerNavb {
+    color: #E9D7FE;
+    text-decoration: none;
+}
+
+#new {
+    padding: 2px 6px;
+    color: white;
+    border: 1px solid;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.10);
+    margin-left: 8px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+#product {
+    display: inline-block;
+    vertical-align: middle;
+    width: 176px;
+    text-align: left;
+}
+
+#company {
+    display: inline-block;
+    vertical-align: middle;
+    width: 176px;
+    text-align: left;
+}
+
+#Resources {
+    display: inline-block;
+    vertical-align: middle;
+    width: 176px;
+    text-align: left;
+}
+
+#useCases {
+    display: inline-block;
+    vertical-align: middle;
+    width: 176px;
+    text-align: left;
+}
+
+#social {
+    display: inline-block;
+    vertical-align: middle;
+    width: 176px;
+    text-align: left;
+}
+
+#productTitle {
+    padding-bottom: 16px;
+    color: #D6BBFB;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Inter;
+    
+}
+
+#companyTitle {
+    padding-bottom: 16px;
+    color: #D6BBFB;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Inter;
+    display: block;
+}
+
+#resourcesTitle {
+    padding-bottom: 16px;
+    color: #D6BBFB;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Inter;
+    display: block;
+}
+
+#useCasesTitle {
+    padding-bottom: 16px;
+    color: #D6BBFB;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Inter;
+    display: block;
+}
+
+#socialTitle {
+    padding-bottom: 16px;
+    color: #D6BBFB;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Inter;
+    display: block;
+}
+
+#copyrightContent {
+    width: 100%;
+    text-align: center;
+}
+
+#footerLogo {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#copyright {
+    display: inline-block;
+    vertical-align: middle;
+    color: #D6BBFB;
+    font-family: Inter;
+    font-size: 16px;
+    text-align: left;
+}
+
+#copyrightContent {
+    padding: 32px;
+}
+
+#insideContent2 {
+    text-align: center;
+    border-top: 1px solid #7F56D9;
+    display: inline-block;
+    padding-top: 32px;
+}
+
+#footerIMG {
+    display: inline-block;
+    margin-right: 475px;
+    cursor: pointer;
+}
